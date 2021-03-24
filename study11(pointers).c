@@ -15,6 +15,7 @@ int main()
 	//similarly
 	int i, arr[4] = {10, 2, 14, 70};
 	int *p_arr[4];
+
 	//in order to assign a pointer to every element of the array we use a for loop
 	for(i = 0; i < 4; i++){
 		p_arr[i] = &arr[i];
